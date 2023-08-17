@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by VIGNESH  C</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<h1 id="title">Tesla model purchase</h1>
+
+<p id="description">Fill details below to complete your tesla order</p>
+
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" name="name" placeholder="Elon Musk" required></input>
+  <br>
+<label for="email" id="email-label"> Email </label>
+<input id="email" type="email" name="email" placeholder="elonmusk@tesla.com" required>
+</input>
+
+</br>
+<label for="number" id="number-label"> Age</label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="100" required></input>
+<br>
+<label for="dropdown" id="model">select model</label>
+<select id="dropdown">
+  <option value="Model_s">Model s</option>
+  <option value="Model_3">Model 3</option>
+  <option value="Model_x">Model x</option>
+  <option value="Model_y">Model y</option>
+  <option value="cyber_truck">cyber truck</option>
+</select>
+<br>
+<br>
+
+<label for="model_color" id="model_color"> <b>Model color:</b></label>
+<br>
+
+<input id="model_color" type="radio" id="black" name="color" value="black".
+       <label for="model_color">black</label>
+<br>
+<input id="model_color" type="radio" id="white" name="color" value="white".
+       <label for="model_color">white</label>
+<br>
+<input id="model_color" type="radio" id="red" name="color" value="red".
+       <label for="model_color">red</label>
+<br>
+<br>
+
+
+<label for="features"> Add features:</b></label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="autopilot">
+<label for="checkbox">Full self-driving (Autopilot) - $10,000 </label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="dual_motor">
+<label for="checkbox">dual motor(All wheel drive) - $5,000</label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="battery">
+<label for="checkbox">Performance Plus(Enhanced battery) - $7,500 </label>
+<br>
+<br>
+
+
+<label id="textarea"> Additional Comments </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40">
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="Place Order">
+
+
+</form>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
